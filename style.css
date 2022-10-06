@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  border: 2px solid black;
+}
+
+.header {
+  border: 2px dotted black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-links {
+  display: flex;
+}
+
+.main {
+  border: 2px dotted red
+}
+
+.footer {
+  border: 2px dotted black;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
