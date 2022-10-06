@@ -23,21 +23,24 @@ body {
 
 .header {
   height: 3rem;
-  padding: 10px;
+  padding: 0 10px;
   display: flex;
   align-items: center;
   justify-content: space-around;
+  gap: 20px;
 }
 
 .header-links {
   display: flex;
-  gap: 20px;
+  gap: 15px;
+  flex: none;
 }
 
 .logo {
   font-size: 24px;
   color: #f9faf8;
   font-weight: 800;
+  flex: none;
 }
 
 ul {
@@ -51,7 +54,60 @@ a {
 }
 
 .main {
-  
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex: 1;
+  gap: 50px;
+  padding: 100px 10%;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  flex: initial;
+  width: 550px;
+  margin-bottom: 10px;
+  gap: 10px;
+}
+
+.intro h1 {
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 1em;
+  color: #f9faf8;
+}
+
+.intro button {
+  border: none;
+  border-radius: 15px;
+  padding: 5px 10px;
+  width: 90px;
+  color: white;
+  background-color: #3882f6;
+  font-weight: 800;
+}
+
+.hammer {
+  display: flex;
+  width: 500px;
+  height: 320px;
+  flex: initial;
+/*   margin-left: 50px; */
+  background-image: url(./img/hammer.jpg);
+  background-size: cover;
+  background-position: bottom;
+  box-shadow: 0 0 10px 10px #1f2937 inset;
+}
+
+.hammer>img {
+  display: none;
 }
 
 .footer {
