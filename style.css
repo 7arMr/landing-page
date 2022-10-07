@@ -110,6 +110,48 @@ a {
   display: none;
 }
 
+.info-pannel {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.info-boxes {
+  width: 100%;
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-pannel h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  padding: 20px;
+  white-space: nowrap;
+}
+
+.card {
+  color: #1f2937;
+  text-shadow: 2px 2px 4px #505050;
+  width: 160px;
+  text-align: center;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  margin: 30px 20px;
+}
+
+.card img {
+  width: 150px;
+}
+
+
+
+
 .footer {
   height: 4rem;
   display: flex;
