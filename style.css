@@ -82,6 +82,7 @@ a {
   font-weight: 900;
   line-height: 1em;
   color: #f9faf8;
+  text-shadow: 2px 2px 4px #b8b8b8;
 }
 
 .intro button {
@@ -149,8 +150,43 @@ a {
   width: 150px;
 }
 
+.quote-pannel {
+  display: flex;
+  justify-content: center;
+  background-color: #e5e7eb;
+  padding: 50px;
+}
 
+.quote1 {
+  display: flex;
+  flex: initial;
+  flex-direction: column;
+  width: 800px;
+  font-size: 36px;
+  font-weight: 100;
+  color: #1f2937;
+}
 
+.quote1 strong {
+  text-align: end;
+  text-shadow: 2px 2px 5px #1f2937;
+}
+
+/* .action-pannel {
+  border: 2px solid red;
+  padding: 50px;
+}
+
+.signup {
+  border: 2px dotted black;
+  display: flex;
+  background-color: #e5e7eb;
+  flex-direction: column;
+}
+
+.calltoaction {
+
+} */
 
 .footer {
   height: 4rem;
