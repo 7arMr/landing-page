@@ -85,10 +85,12 @@ a {
   text-shadow: 2px 2px 4px #b8b8b8;
 }
 
-.intro button {
+.intro button,
+.signup button {
   border: none;
   border-radius: 15px;
-  padding: 5px 10px;
+  padding: 7px 10px;
+  white-space: nowrap;
   width: 90px;
   color: white;
   background-color: #3882f6;
@@ -100,7 +102,6 @@ a {
   width: 500px;
   height: 320px;
   flex: initial;
-/*   margin-left: 50px; */
   background-image: url(./img/hammer.jpg);
   background-size: cover;
   background-position: bottom;
@@ -172,21 +173,39 @@ a {
   text-shadow: 2px 2px 5px #1f2937;
 }
 
-/* .action-pannel {
-  border: 2px solid red;
+.action-pannel {
+  display: flex;
+  justify-content: center;
   padding: 50px;
 }
 
 .signup {
-  border: 2px dotted black;
   display: flex;
-  background-color: #e5e7eb;
-  flex-direction: column;
+  flex: auto;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+  padding: 50px 30px;
+  margin: 0 30%;
+  min-width: 300px;
+  border-radius: 10px;
+  background-color: #3882f6;
+  box-shadow: 4px 4px 10px #1f2937;
 }
 
 .calltoaction {
+  color: white;
+  font-size: 18px;
+}
 
-} */
+.calltoaction p {
+  font-size: 12px;
+  font-weight: 100;
+}
+
+.signup button {
+  box-shadow: 0 0 10px #fff;
+}
 
 .footer {
   height: 4rem;
